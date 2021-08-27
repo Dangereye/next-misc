@@ -18,6 +18,11 @@ function Navbar() {
               <a>Blog</a>
             </Link>
           </li>
+          <li>
+            <Link href="/pets">
+              <a>Pets</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </header>
