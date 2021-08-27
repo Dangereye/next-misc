@@ -1,0 +1,37 @@
+// Variables
+$text-color: #222;
+$page-width: 108rem;
+
+// Global
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+body {
+  font-size: 1.6rem;
+  color: $text-color;
+}
+
+.container {
+  margin: 0 auto;
+  width: $page-width;
+  padding: 0 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

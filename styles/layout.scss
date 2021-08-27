@@ -1,0 +1,27 @@
+.navbar,
+.footer {
+  min-height: 7rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.main {
+  min-height: calc(100vh - 14rem);
+  padding: 4rem 0;
+}
