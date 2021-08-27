@@ -1,10 +1,17 @@
+import Head from "next/head";
+
 function About() {
   return (
-    <main className="main">
-      <div className="container">
-        <h2>About Page</h2>
-      </div>
-    </main>
+    <>
+      <Head>
+        <title>About Page</title>
+      </Head>
+      <main className="main">
+        <div className="container">
+          <h1>About Page</h1>
+        </div>
+      </main>
+    </>
   );
 }
 

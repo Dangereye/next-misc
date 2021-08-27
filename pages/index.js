@@ -1,9 +1,15 @@
+import Head from "next/head";
 export default function Home() {
   return (
-    <main className="main">
-      <div className="container">
-        <h2>Home Page</h2>
-      </div>
-    </main>
+    <>
+      <Head>
+        <title>Home Page</title>
+      </Head>
+      <main className="main">
+        <div className="container">
+          <h1>Home Page</h1>
+        </div>
+      </main>
+    </>
   );
 }

@@ -13,6 +13,11 @@ function Navbar() {
               <a>About</a>
             </Link>
           </li>
+          <li>
+            <Link href="/blog/1">
+              <a>Blog</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </header>

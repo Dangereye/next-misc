@@ -3,6 +3,9 @@
   min-height: 7rem;
   display: flex;
   align-items: center;
+
+  color: #fff;
+  background-color: #111;
 }
 
 .navbar {
@@ -10,6 +13,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   .logo {
     text-transform: uppercase;
     font-weight: 600;
@@ -18,6 +22,18 @@
   &__nav {
     display: flex;
     align-items: center;
+
+    li:not(:last-child) {
+      margin-right: 1rem;
+    }
+
+    a {
+      transition: color 0.4s;
+
+      &:hover {
+        color: orangered;
+      }
+    }
   }
 }
 
