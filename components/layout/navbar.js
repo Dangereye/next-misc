@@ -23,6 +23,11 @@ function Navbar() {
               <a>Pets</a>
             </Link>
           </li>
+          <li>
+            <Link href="/news">
+              <a>News</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </header>
