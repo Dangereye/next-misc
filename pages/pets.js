@@ -13,7 +13,7 @@ function Pets() {
           <h1>Pets Page</h1>
           <div className="gallery">
             {["1", "2", "3", "4", "5"].map((path) => (
-              <div className="gallery__item" Key={`item-${path}`}>
+              <div className="gallery__item" key={`item-${path}`}>
                 <Image
                   src={`/${path}.jpg`}
                   alt={`Image-${path}`}
