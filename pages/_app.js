@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
-import "../styles/globals.scss";
-import "../styles/layout.scss";
+import Navbar from "@/layout/navbar";
+import Footer from "@/layout/footer";
+import "styles/globals.scss";
+import "styles/layout.scss";
 
 function MyApp({ Component, pageProps }) {
   return (
